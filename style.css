@@ -1,57 +1,57 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family:  Lato, sans-serif;
-	font-weight: 700;
-	font-size: 14px;
+gitbody{
+  margin: 0;
+  padding: 0;
+  font-family:  Lato, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 a{
-	text-decoration: none;
-	color: #000;
-	text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
 }
 
 ul{
-	list-style: none;
-	display: flex;
+  list-style: none;
+  display: flex;
 }
 
 span{
-	display: block;
-	font-size: 10px;
-	margin: 0;
-	padding: 0;
+  display: block;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .Header{
-	display: flex;
-	width: 100%;
-	align-items: center;
-	padding: 20px 0 20px 0;
-	position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  position: absolute;
 }
 
 .header-logo img{
-	top: 0px;
-	left: 0px;
-	height: 20px;
-	padding: 0 0 20px 0 ;
-	width: auto;
-	display: block;
+  top: 0px;
+  left: 0px;
+  height: 20px;
+  padding: 0 0 20px 0 ;
+  width: auto;
+  display: block;
 }
 
 .header-logo:hover img{
-	opacity: .7;
+  opacity: .7;
 }
 
 .headerbox{
-	position: relative;
-	width: 100%;
-	margin: 0 36px 0 36px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  position: relative;
+  width: 100%;
+  margin: 0 36px 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headerbox>*:last-child {
@@ -59,7 +59,7 @@ span{
 }
 
 .header-nav{
-	height: auto;
+  height: auto;
 }
 
 .header-nav-hamburger{
@@ -67,50 +67,50 @@ span{
 }
 
 .header-nav-list{
-	display: flex;
-	align-items: center;
-	padding: 0;
-	margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .header-nav-list-item{
-	text-align: center;
-	margin-right: 45px;
+  text-align: center;
+  margin-right: 45px;
 }
 
 .nav-list-button{
-	background-color: #F79214;
-	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-size: 12px;
-	color: #fff;
+  background-color: #F79214;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 12px;
+  color: #fff;
   height: 40px;
   display: flex;
-	padding: 0 20px;
-	border-radius: 38px;
-	align-items: center;
+  padding: 0 20px;
+  border-radius: 38px;
+  align-items: center;
 }
 .nav-list-button:hover{
-	background-color:#F3B171;
+  background-color:#F3B171;
 }
 
 .header-nav-list-item:last-of-type{
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .firstview-haikei-s{
-	display: none;
+  display: none;
 }
 
 .firstview{
-	background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
-	background-position: center;
-	background-size: cover;
-	padding-top: 100px;
-	padding-bottom: 28px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 28px;
 }
 
 .firstview-box{
-	max-width: 1040px;
+  max-width: 1040px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -119,43 +119,43 @@ span{
 }
 
 .firstview-box-text{
-	width: fit-content;
-	margin-bottom: 70px;
+  width: fit-content;
+  margin-bottom: 70px;
 }
 
 .firstview-box-text-title{
-	color: #000;
+  color: #000;
   font-family: 'Lato', sans-serif;
   font-size: 38px;
   font-weight: 700;
   text-align: center;
   margin:0 0 15px 0 ;
 }
+
 .firstview-box-img{
-	margin-bottom: 25px;
-	
+  margin-bottom: 25px;
 }
 
 .img1, .img2 , .img3{
-	vertical-align: middle;
+  vertical-align: middle;
 } 
 
 .img2{
-	margin-right: 8px;
+  margin-right: 8px;
 }
 
 .img1{
-	margin-right: 8px;
-	width: 40%;
+  margin-right: 8px;
+  width: 40%;
 }
 
 .firstview-box-button{
-	display: flex;
-	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  display: flex;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .firstview-box-button a{
-	align-items: center;
+  align-items: center;
   background-color: #F79214;
   border: none;
   border-radius: 38px;
@@ -186,30 +186,30 @@ span{
 }
 
 .firstview-box-button-a:hover{
-	background-color:#F3B171;
+  background-color:#F3B171;
 }
 
 .firstview-box-button-b:hover{
-	background-color:#fff;
-	border: 1px solid #E6E6E6;
+  background-color:#fff;
+  border: 1px solid #E6E6E6;
 }
 
 .firstview-box-123{
-	color: #A2A2A4;
+  color: #A2A2A4;
   font-size: 12px;
   font-weight: 500;
 }
 
 .potepancamp-setumei{
-	background-color: #F79215;
-	padding: 45px 0;
+  background-color: #F79215;
+  padding: 45px 0;
 }
 
 .potepancamp-setumei-box{
-	display: flex;
-	justify-content:space-between;
-	align-items: center;
-	max-width: 1040px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1040px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -218,26 +218,26 @@ span{
 }
 
 .potepancamp-setumei-box-text{
-	color: #fff;
-	width: 53%;
+  color: #fff;
+  width: 53%;
 }
 
 .potepancamp-setumei-box-title {
-	display:inline;
+  display:inline;
   width: 100%;
   line-height: 74px;
   letter-spacing: 1px;
 }
 
 .potepancamp-setumei-box-title h2 {
-	font-size: 40px;
+  font-size: 40px;
   font-weight: 700;
   margin: 0;
 }
 
 .potepancamp-setumei-box-title h2>span {
-	display: inline-block;
-	padding: 0;
+  display: inline-block;
+  padding: 0;
   margin: 0;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
@@ -245,187 +245,189 @@ span{
 }
 
 .potepancamp-setumei-box-title br {
-	display: none;	
+  display: none;	
 }
 
 .potepancamp-setumei-box-text p{
-	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-size: 16px;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
   font-weight: 700;
   line-height: 26px;
   margin-top: 15px;
 }
 
 .potepancamp-setumei-button{
-	display: flex;
-	align-items: center;
-	text-align: center;
-	width: 250px;
-	background-color: #fff;
-	height: 64px;
-	justify-content:center;
-	border-radius: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  background-color: #fff;
+  height: 64px;
+  justify-content:center;
+  border-radius: 38px;
 }
 
 .potepancamp-setumei-button a{
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-	align-items: center;
-	color: #F79215;
+  align-items: center;
+  color: #F79215;
 }
 
 .potepancamp-setumei-button span{
-	font-size: 12px;
+  font-size: 12px;
   line-height: 18px;
-	text-align: center;
-	color: #F79215;
+  text-align: center;
+  color: #F79215;
 }
 
 @media screen and (max-width: 1080px) {
-	header{
-	background-color: #fff;
+  header{
+    background-color: #fff;
 	}
 	
-	.header-box{
+  .header-box{
 	height: 21px;
 	}
 	
-	.header-nav ul{
-	display: none;
+  .header-nav ul{
+    display: none;
 	}
 	
-	.header-logo img{
-	padding: 0;
+  .header-logo img{
+    padding: 0;
 	}
 	
-	.header-nav-hamburger{
-	cursor: pointer;
-  display: block;
-  position: relative;
-  width: 30px;
-  height: 21px;
-  z-index: 100;
+  .header-nav-hamburger{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
 	}
 	
-	.header-nav-hamburger-line{
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 100%;
-  height: 3px;
-  background-color: #000;
-  transform: translate(0, -50%);
-  border-radius: 10px;
-  transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  .header-nav-hamburger-line{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
 	}
 	
-	.header-nav-hamburger-line:first-child {
-  top: 0;
+  .header-nav-hamburger-line:first-child {
+    top: 0;
 	}
 	
-	.header-nav-hamburger-line:last-child {
-  top: 100%;
+  .header-nav-hamburger-line:last-child {
+    top: 100%;
 	}
 	
- main {
-  padding-top: 60px;
+  main {
+    padding-top: 60px;
 	}
 }
 
 @media screen and (max-width: 1024px){
-	.potepancamp-setumei-box {
-	display: block;
+  .potepancamp-setumei-box {
+    display: block;
 	}
 	
-	.potepancamp-setumei-box-text{
+  .potepancamp-setumei-box-text{
 	width: 100%;
 	}
 	
-	.potepancamp-setumei-button {
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  .potepancamp-setumei-button {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 	}
 }
 
 
 @media screen and (max-width: 767px){
-	img.firstview-haikei-s{
-	display: block;
-	width: 100%;
+  img.firstview-haikei-s{
+    display: block;
+    width: 100%;
+    }
+	
+  .firstview{
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px;
 	}
 	
-	.firstview{
-  background-image: none;
-  padding-top: 0;
-  padding-bottom: 35px;
-	}
-	
-	.firstview-box{
-	margin-top: -45vw;
+  .firstview-box{
+    margin-top: -45vw;
 	max-width: none;
 	padding-left: 20px;
 	padding-right: 20px;
 	}
 	
-	.firstview-box-text{
+  .firstview-box-text{
 	margin-bottom: 20px;
 	width: 100%;
 	}
 	
-	.firstview-box-text-title{
+  .firstview-box-text-title{
 	font-size: 25px;
-  line-height: 36px;
-  margin-left: calc(((100vw - 100%) / 2) * -1);
-  margin-right: calc(((100vw - 100%) / 2) * -1);
+    line-height: 36px;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
 	}
 	
-	.firstview-box-img{
+  .firstview-box-img{
 	display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
 	}
 	
-	.firstview-box-img img{
+  .firstview-box-img img{
 	width: 27.5%;
 	}
 	
-	.firstview-box-img img:nth-of-type(2){
+  .firstview-box-img img:nth-of-type(2){
 	width: 40%;
 	}
 	
-	.firstview-box-button{
+  .firstview-box-button{
 	display: block;
 	width: 100%;
 	}
 	
-	.firstview-box-button a:first-of-type{
-  margin-right: 0;
-  margin-bottom: 10px;
-  width: 100%;
+  .firstview-box-button a:first-of-type{
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
 	}
-	.firstview-box-button a{
+	
+  .firstview-box-button a{
 	font-size: 14px;
-  width: 100% !important;
+    width: 100% !important;
 	}
 	
-	.firstview-box-button a:last-of-type {
-  height: 45px;
+  .firstview-box-button a:last-of-type {
+    height: 45px;
 	}
-	.potepancamp-setumei-box-title h2{
+	
+  .potepancamp-setumei-box-title h2{
 	font-size: 30px !important;
-  text-align: center;
-  line-height: 1.2;
+    text-align: center;
+    line-height: 1.2;
 	}
 	
-	.potepancamp-setumei-box-title h2>span {
-  font-size: 33px;
+  .potepancamp-setumei-box-title h2>span {
+    font-size: 33px;
 	}
 
   .potepancamp-setumei-box-title br{
   	display: block;
-  }
+    }
 }
